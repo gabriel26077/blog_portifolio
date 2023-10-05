@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+--cor-0: #000;    
+--cor-1: #462E2E;
+--cor-2: #D96F32;
+--cor-3: #F26241;
+--cor-4: #F29A2E;
+--cor-5: #F2CD5C;
+--cor-6: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--cor-0),var(--cor-1));
+    color: var(--cor-5);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: var(--cor-5);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: var(--cor-5);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--cor-3 );
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding:  0 10%;
+    max-width: 800px;
+}
+
+.home-content{
+    background-color: transparent;
+}
+
+.home-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--cor-3);
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    line-height: 1.5;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: var(--cor-5);
+    border: 2px solid var(--cor-5);
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.btn-box a:hover{
+    color: var(--cor-5);
+}
+
+.btn-box a:nth-child(2){
+    background-color: transparent;
+    color: var(--cor-5);
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #081b29 ;
+}
+
+.btn-box a:nth-child(2)::before{
+    background-color: var(--cor-5);
+}
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color : #081b29;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+    width:  100%;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid var(--cor-5);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--cor-5);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.home-sci a:hover {
+    color: #081b29;
+}
+
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--cor-5);
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before{
+    width: 100%;
+}
+
+.post{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding:  0 10%;
+    background-color: transparent;
+    margin-top: 10%;
+}
+
+.post-content{
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newPost{
+    height: 100%;
+    margin-left: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-box{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input, .input-box textarea{
+    margin: 5px;
+}
+
+.posts{
+    margin-right: 5%;
+    width: 50%;
+    height: 100%;
+    
+}   
+
+.post-object{
+    margin: 20px 0;
+    border: 3px solid var(--cor-2);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.post-object h1{
+    color: var(--cor-3) ;
+}

@@ -2,7 +2,7 @@
 
 ## Visão Geral
 Este repositório contém um blog simples em HTML criado por Gabriel Neto como parte do desafio do processo seletivo da empresa Include. O blog tem como tema o filme "Opennhaimer", lançado em 2023. O objetivo é demonstrar minhas habilidades de desenvolvimento web e minha capacidade de criar conteúdo relacionado ao tema do filme.
-
+    
 ## Estrutura do Projeto
 O projeto está organizado da seguinte maneira:
 
