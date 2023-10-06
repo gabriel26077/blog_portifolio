@@ -1,7 +1,6 @@
 const newPosForm = document.getElementById("newPost");
 const postsContainer = document.getElementById("posts");
 
-console.log(newPosForm);
 
 function addPost(event) {
     event.preventDefault();
@@ -27,3 +26,5 @@ function addPost(event) {
     document.getElementById("content").value = "";
 
 }
+
+
