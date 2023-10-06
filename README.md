@@ -14,9 +14,9 @@ O projeto está organizado da seguinte maneira:
 ## Conteúdo
 O blog contém as seguintes seções:
 
-1. **Página Inicial**: Uma introdução ao blog e uma breve visão geral do filme "Opennhaimer".
-2. **Sobre Mim**: Uma seção que apresenta informações sobre Gabriel Neto, suas qualificações e sua motivação para criar o blog.
-3. **Contato**: Informações de contato para Gabriel Neto, caso alguém deseje entrar em contato para discutir o blog ou o filme.
+1. **Home**: Uma seção que apresenta informações sobre Gabriel Neto, suas qualificações.
+2. **Post**: Uma página com mais algumas informações sobre as habildiades de Gabriel. Essa página possui também um campo para adicionar novos posts, entretanto eles não ficam salvos.
+3. **Sobre**: Informações detalhadas sobre Gabriel Neto e seu contato de email para comunicação.
 
 ## Como Visualizar o Blog
-Você pode visualizar o blog simples em HTML acessando o arquivo `index.html` em seu navegador da seguinte forma:
+Você pode visualizar o blog simples em HTML acessando o arquivo `index.html` em seu navegador.
