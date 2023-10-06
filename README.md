@@ -19,4 +19,4 @@ O blog contém as seguintes seções:
 3. **Sobre**: Informações detalhadas sobre Gabriel Neto e seu contato de email para comunicação.
 
 ## Como Visualizar o Blog
-Você pode visualizar o blog simples em HTML acessando o arquivo `index.html` em seu navegador.
+Você pode visualizar o blog simples em HTML acessando o arquivo `index.html` em seu navegador ou [clicando aqui](https://gabriel26077.github.io/blog_portifolio/index.html)
